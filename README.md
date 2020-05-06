@@ -16,12 +16,12 @@ This repository contains modules, which customize Keycloak integration in order 
 
 ## Modules
 
-###keycloak-login-filter
+### keycloak-login-filter
 
 This is a servlet filter, which intercepts `/c/portal/login` URLs and performs the OpenId Connect Provider authorization.
 Once user hits the "Sign In" link - he should be redirected to Keycloak Sign In form automatically.
 
-###keycloak-logout-action
+### keycloak-logout-action
 
 This is a `logout.events.post` LifecycleAction, which is invoked after logout. 
 It makes a request to the OpenId Connect Provider logout URL, and then redirects to Liferay's default logout page path.
