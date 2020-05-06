@@ -1,0 +1,3 @@
+Bundle-Name: Keycloak Logout Action
+Bundle-SymbolicName: com.liferay.keycloak.logout.action
+Bundle-Version: 1.0.0

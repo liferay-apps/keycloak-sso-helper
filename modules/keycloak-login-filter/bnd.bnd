@@ -1,0 +1,3 @@
+Bundle-Name: Keycloak Login Filter
+Bundle-SymbolicName: com.liferay.keycloak.login.filter
+Bundle-Version: 1.0.0
